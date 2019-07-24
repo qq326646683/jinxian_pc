@@ -1,0 +1,491 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>瑾贤 |案例展示</title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="Jinxian Multi-Purpose Technology Template" />
+  <meta name="keywords" content="multipurpose, technology, business, corporate, hosting, web, startup, app showcase, mobile, blog, portfolio, landing, shortcodes, html5, css3, jquery, js, gallery, slider, touch, creative" />
+  <meta name="author" content="8Guild" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- All Theme Styles including Bootstrap, FontAwesome, etc. compiled from styles.scss-->
+  <link href="css/styles.min.css" rel="stylesheet" media="screen">
+
+  <!--Modernizr / Detectizr-->
+  <script src="js/vendor/modernizr.custom.js"></script>
+  <script src="js/vendor/detectizr.min.js"></script>
+</head>
+
+<!-- Body -->
+<!-- "is-preloader preloading" is a helper classes if preloader is enabled. -->
+<body class="is-preloader preloading">
+
+  <!-- Preloader -->
+  <!--
+      Data API:
+      data-spinner - Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+      data-screenbg - Screen background color. Hex, RGB or RGBA colors
+   -->
+  <div id="preloader" data-spinner="spinner1" data-screenbg="#fff"></div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Social Bar -->
+    <!-- Change modifier class to ".bar-fixed-left" to position social bar on the left side of the page. -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-content text-center">
+          <h4>Login With Social Account</h4>
+          <div class="space-bottom-2x">
+            <a href="#" class="btn google-login waves-effect waves-light">Google<i class="fa fa-google"></i></a>
+            <a href="#" class="btn twitter-login waves-effect waves-light">Twitter<i class="fa fa-twitter"></i></a>
+            <a href="#" class="btn facebook-login waves-effect waves-light">Facebook<i class="fa fa-facebook"></i></a>
+          </div>
+          <h4>Or by Email</h4>
+          <form method="post">
+            <input type="email" class="form-control" placeholder="Email" required>
+            <input type="password" class="form-control" placeholder="Password" required>
+            <div class="form-group">
+              <button type="submit" class="btn login-btn btn-default waves-effect waves-light">Login into your account<i class="icon-head"></i></button>
+            </div>
+            <div class="text-left">
+              <span class="text-sm text-semibold">New to Jinxian? <a href="#">Sign Up</a></span>
+            </div>
+          </form><!-- <form> -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal.fade -->
+
+    <!-- Navbar -->
+    <!-- Add class ".navbar-sticky" to make navbar stuck when it hits the top of the page. Another modifier class is: "navbar-fullwidth" to stretch navbar and make it occupy 100% of the page width. The screen width at which navbar collapses can be controlled through the variable "$nav-collapse" in sass/variables.scss -->
+    <header class="navbar navbar-sticky">
+
+      <!-- Toolbar -->
+      <div class="topbar">
+        <div class="container">
+          <a href="index.html" class="site-logo">
+            <img src="img/logo.png" alt="jinxian">
+          </a>
+          <a style="float: right;border-bottom: none;margin-right: 30px;"><img src="./img/tel.png" style="display: inline-block"><span style="color:#2895f1;font-size: 22px;vertical-align: middle;margin-left: 10px;">+86 021 33686530</span></a>
+
+          <div class="nav-toggle"><span></span></div>
+
+        </div>
+      </div><!-- .topbar -->
+
+      <!-- Main Navigation -->
+      <div class="container">
+        <nav class="main-navigation">
+          <ul class="menu">
+            <li class="menu-item-has-children">
+              <a href="index.html" >首页</a>
+            </li>
+            <li class="menu-item-has-children current-menu-item">
+              <a href="portfolio-standard.html" target="_blank">案例</a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="home-app-showcase.html" target="_blank">服务</a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="contacts.html" target="_blank">关于我们</a>
+            </li>
+          </ul><!-- .menu -->
+        </nav><!-- .main-navigation -->
+      </div><!-- .container -->
+      <div class="social-bar mobile-socials">
+        <a href="#" class="sb-skype">
+          <i class="fa fa-skype"></i>
+        </a>
+        <a href="#" class="sb-facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#" class="sb-twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </header><!-- .navbar -->
+
+    <!-- Page Title -->
+    <!--Add modifier class : "pt-fullwidth" to stretch page title and make it occupy 100% of the page width. -->
+    <section class="page-title">
+      <div class="container">
+        <div class="inner">
+          <div class="column">
+            <div class="title">
+              <h1>案例</h1>
+            </div><!-- .title -->
+          </div><!-- .column -->
+          <div class="column">
+            <div class="breadcrumbs">
+              <a href="index.html">首页</a>
+              <span class="delimiter"><i class="icon-arrow-right"></i></span>
+              <span>案例</span>
+            </div><!-- .breadcrumbs -->
+          </div><!-- .column -->
+        </div>
+      </div>
+    </section><!-- .page-title -->
+
+    <!-- Content -->
+    <section class="container">
+      <h2 class="block-title text-center">
+       案例展示
+        <small>Our latest works</small>
+      </h2>
+
+
+      <!-- Filters -->
+      <div class="text-center padding-top">
+        <ul class="nav-filters space-bottom-2x text-center">
+          <li class="active"><a href="#" data-filter="*">全部</a></li>
+          <li><a href="#" data-filter=".work">教育服务</a></li>
+          <li><a href="#" data-filter=".business">后台管理／ERP系统</a></li>
+          <li><a href="#" data-filter=".pt">互联网系列</a></li>
+          <li><a href="#" data-filter=".zs">营销型网站</a></li>
+        </ul><!-- .nav-filters -->
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="grid isotope-grid col-3 filter-grid">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+
+        <!-- Portfolio Item -->
+        <div class="grid-item pt zs">
+          <a href="home-product-mtl.html" class="portfolio-item " target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/2.jpg" alt="show">
+            </div>
+            <h3 class="portfolio-title">华为-O2O平台</h3>
+          </a>
+        </div><!-- .grid-item.apps -->
+        <div class="grid-item business">
+          <a href="home-product-freetopia.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/1.jpg" alt="Conference">
+            </div>
+            <h3 class="portfolio-title">公司注册管理系统</h3>
+          </a>
+        </div><!-- .grid-item.identity -->
+
+        <div class="grid-item pt zs">
+          <a href="home-product-show.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/7.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">普华永道—营销展示</h3>
+          </a>
+        </div>
+
+        <div class="grid-item work mobile">
+          <a href="home-product-you.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/4.jpg" alt="Startup Landing Page">
+            </div>
+            <h3 class="portfolio-title">线上课堂APP—教育培训</h3>
+          </a>
+        </div><!-- .grid-item.apps -->
+
+        <!-- Portfolio Item -->
+        <!--<div class="grid-item landings">-->
+        <!--<a href="home-product-promo.html" class="portfolio-item" target="_blank">-->
+        <!--<div class="thumbnail waves-effect waves-light">-->
+        <!--<img src="img/intro/thumbs/6.jpg" alt="App Showcase Landing">-->
+        <!--</div>-->
+        <!--<h3 class="portfolio-title">美容APP</h3>-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!-- Portfolio Item -->
+        <div class="grid-item  zs">
+          <a href="home-product-babby.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/07.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">宝宝去哪儿—亲子专题</h3>
+          </a>
+        </div>
+
+        <div class="grid-item zs ">
+          <a href="home-ak.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/12.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">嗳呵洗衣液—生活用品</h3>
+          </a>
+        </div>
+
+        <!-- Portfolio Item -->
+
+
+        <!-- Portfolio Item -->
+        <!--<div class="grid-item landings">-->
+        <!--<a href="home-product-promo.html" class="portfolio-item" target="_blank">-->
+        <!--<div class="thumbnail waves-effect waves-light">-->
+        <!--<img src="img/intro/thumbs/06.jpg" alt="Product Promo Page">-->
+        <!--</div>-->
+        <!--<h3 class="portfolio-title">美甲APP</h3>-->
+        <!--</a>-->
+        <!--</div>-->
+        <div class="grid-item zs">
+          <a href="home-product-ldq.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/9.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">露得清—美妆美容</h3>
+          </a>
+        </div>
+        <div class="grid-item  zs">
+          <a href="home-product-lk.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/8.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">兰蔻—美妆美容</h3>
+          </a>
+        </div>
+        <!-- Portfolio Item -->
+
+        <div class="grid-item zs">
+          <a href="home-product-hs.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/11.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">惠氏—生活用品行业</h3>
+          </a>
+        </div>
+
+        <div class="grid-item zs">
+          <a href="home-product-yors.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/20.jpg" alt="O2O app">
+            </div>
+            <h3 class="portfolio-title">Yors—O2O app</h3>
+          </a>
+        </div>
+
+        <div class="grid-item pt">
+          <a href="javascript:void(0)" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/19.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">天地通</h3>
+          </a>
+        </div>
+
+        <div class="grid-item pt">
+          <a href="home-product-loreal.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/17.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">欧莱雅</h3>
+          </a>
+        </div>
+        <div class="grid-item pt">
+          <a href="home-product-littlesocium.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/16.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">立秀宝</h3>
+          </a>
+        </div>
+        <div class="grid-item pt">
+          <a href="home-product-qrcode.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/qr_code.jpg" alt="QR code design">
+            </div>
+            <h3 class="portfolio-title">二维码设计</h3>
+          </a>
+        </div>
+
+        <div class="grid-item work">
+          <a href="home-product-cjlr.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/14.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">电子培训系统</h3>
+          </a>
+        </div>
+        <div class="grid-item business">
+          <a href="home-product-staff.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/18.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">人事管理系统</h3>
+          </a>
+        </div>
+        <div class="grid-item business">
+          <a href="home-product-production.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/15.jpg" alt="SEO Services Landing">
+            </div>
+            <h3 class="portfolio-title">生产管理系统</h3>
+          </a>
+        </div>
+
+        <div class="grid-item pt">
+          <a href="home-product-bank.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/21.jpg" alt="商业银行信用卡开发">
+            </div>
+            <h3 class="portfolio-title">商业银行信用卡开发</h3>
+          </a>
+        </div>
+
+        <div class="grid-item work">
+          <a href="home-product-uniform.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/22.jpg" alt="我样-最美校服">
+            </div>
+            <h3 class="portfolio-title">我样-"最美校服"主题活动网站</h3>
+          </a>
+        </div>
+
+        <div class="grid-item work">
+          <a href="home-product-woyoung.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/25.jpg" alt="我样-学生活动平台">
+            </div>
+            <h3 class="portfolio-title">我样-学生活动平台</h3>
+          </a>
+        </div>
+
+        <div class="grid-item pt">
+          <a href="home-product-elsker.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/28.jpg" alt="我样（Elsker-微信游戏促销网站）">
+            </div>
+            <h3 class="portfolio-title">Elsker-微信游戏促销网站</h3>
+          </a>
+        </div>
+
+        <div class="grid-item pt">
+          <a href="home-product-job.html" class="portfolio-item" target="_blank">
+            <div class="thumbnail waves-effect waves-light">
+              <img src="img/intro/thumbs/31.jpg" alt="我样（Elsker-微信游戏促销网站）">
+            </div>
+            <h3 class="portfolio-title">迎蜂招聘 App</h3>
+          </a>
+        </div>
+
+
+
+      </div><!-- .isotope-masonry-grid -->
+
+      <!-- Load More Button -->
+      <!--<div class="text-center padding-top">-->
+        <!--<a href="#" class="btn btn-default btn-ghost waves-effect">Load More</a>-->
+      <!--</div>-->
+    </section><!-- .container -->
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="scroll-to-top-btn">
+      <i class="icon-arrow-up"></i>
+    </a><!-- .scroll-to-top-btn -->
+
+    <!-- Footer -->
+    <footer class="footer f_top">
+      <div class="clear">
+
+        <dl>
+          <dt>品牌网站开发</dt>
+          <dd>
+
+            <a href="./portfolio-standard.html">品牌网站建设</a>
+
+            <a href="./portfolio-standard.html">营销型网站建设</a>
+
+            <a href="./portfolio-standard.html">电商网站开发</a>
+
+            <a href="./portfolio-standard.html">集团官网建设</a>
+
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>移动端开发</dt>
+          <dd>
+
+            <a href="javascript:void(0)">手机站开发</a>
+
+            <a href="javascript:void(0)">微信站开发</a>
+
+            <a href="javascript:void(0)">H5场景定制</a>
+
+            <a href="javascript:void(0)">APP开发</a>
+
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>微信开发</dt>
+          <dd>
+
+            <a href="javascript:void(0)">微信内容策划</a>
+
+            <a href="javascript:void(0)">微信公众号运营</a>
+
+            <a href="javascript:void(0)">微信定制开发</a>
+
+
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>平台系统定制开发</dt>
+          <dd>
+
+            <a href="javascript:void(0)">销售管理</a>
+
+            <a href="javascript:void(0)">客户管理</a>
+
+            <a href="javascript:void(0)">企业部门管理系统 </a>
+
+            <a href="javascript:void(0)">ERP系统</a>
+
+          </dd>
+        </dl>
+
+
+      </div>
+
+      <div class="clear">
+                <span class="footer3" style="color:#ccc;font-size: 13px;">Copyright@2018  上海瑾贤网络有限公司版权所有 &nbsp;&nbsp;&nbsp;</span>         <a href="http://www.beian.miit.gov.cn" target="_blank"><span class="footer3" style="color:#ccc;font-size: 13px;">沪ICP备14003629号-1</span></a>
+      </div>
+
+    </footer>
+
+  </div><!-- .page-wrapper -->
+
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts -->
+  <script src="js/vendor/jquery-2.1.4.min.js"></script>
+  <script src="js/vendor/preloader.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/waves.min.js"></script>
+  <script src="js/vendor/placeholder.js"></script>
+  <script src="js/vendor/smoothscroll.js"></script>
+  <script src="js/vendor/waypoints.min.js"></script>
+  <script src="js/vendor/velocity.min.js"></script>
+  <script src="js/vendor/isotope.pkgd.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+
+  </script>
+
+</body><!-- <body> -->
+
+</html>
